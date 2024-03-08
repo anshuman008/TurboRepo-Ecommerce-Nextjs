@@ -16,9 +16,14 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.2.3",
+  "packageManager": "yarn@4.1.1",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12"
+  }
 }
